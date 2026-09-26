@@ -1,0 +1,29 @@
+{
+  "name": "oro-perfume",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ÒRÓ — a cinematic, scroll-driven perfume landing page built with React + Vite + Tailwind CSS.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "framer-motion": "^11.11.17",
+    "lucide-react": "^0.446.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.2.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.11"
+  }
+}
